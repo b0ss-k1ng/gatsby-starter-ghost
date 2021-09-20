@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: `https://ghost-sparetimr-v1.herokuapp.com`, // Site domain. Do not include a trailing slash!
+    siteUrl: `https://ghost4-test-v1.herokuapp.com`, // Site domain. Do not include a trailing slash!
 
     postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
