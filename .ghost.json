@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://ghost-sparetimr-v1.herokuapp.com",
-    "contentApiKey": "c134c0ef0db956e8661922e81d"
+    "apiUrl": "https://ghost4-test-v1.herokuapp.com",
+    "contentApiKey": "10a7297a931c981fadb0b6b4e3"
   },
   "production": {
-    "apiUrl": "https://ghost-sparetimr-v1.herokuapp.com",
-    "contentApiKey": "c134c0ef0db956e8661922e81d"
+    "apiUrl": "https://ghost4-test-v1.herokuapp.com",
+    "contentApiKey": "10a7297a931c981fadb0b6b4e3"
   }
 }
