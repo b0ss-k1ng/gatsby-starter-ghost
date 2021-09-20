@@ -15,7 +15,7 @@ const Author = ({ data, location, pageContext }) => {
     const author = data.ghostAuthor
     const posts = data.allGhostPost.edges
     const twitterUrl = author.twitter ? `https://twitter.com/${author.twitter.replace(/^@/, ``)}` : null
-    const facebookUrl = author.facebook ? `https://www.facebook.com/${author.facebook.replace(/^\//, ``)}` : null
+    const instagramUrl = author.instagram ? `https://www.instagram.com/${author.instagram.replace(/^\//, ``)}` : null
 
     return (
         <>
@@ -33,7 +33,7 @@ const Author = ({ data, location, pageContext }) => {
                             <div className="author-header-meta">
                                 {author.website && <a className="author-header-item" href={author.website} target="_blank" rel="noopener noreferrer">Website</a>}
                                 {twitterUrl && <a className="author-header-item" href={twitterUrl} target="_blank" rel="noopener noreferrer">Twitter</a>}
-                                {facebookUrl && <a className="author-header-item" href={facebookUrl} target="_blank" rel="noopener noreferrer">Facebook</a>}
+                                {instagramUrl && <a className="author-header-item" href={instagramUrl} target="_blank" rel="noopener noreferrer">Instagram</a>}
                             </div>
                         </div>
                         <div className="author-header-image">
@@ -62,7 +62,7 @@ Author.propTypes = {
             website: PropTypes.string,
             bio: PropTypes.string,
             location: PropTypes.string,
-            facebook: PropTypes.string,
+            instagram: PropTypes.string,
             twitter: PropTypes.string,
         }),
         allGhostPost: PropTypes.object.isRequired,
